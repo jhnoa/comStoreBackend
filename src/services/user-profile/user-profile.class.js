@@ -37,6 +37,25 @@ class Service {
     console.log(userDataResult);
     return data;
   }
+
+  // TODO: Make patch to change password
+  async patch(id, data, params) {
+    let {app} = this;
+
+    let {_id, email} = params.user;
+    let usersService = app.service('users');
+    let usersResult = await usersService.find({query: {_id}});
+    if (usersResult.total === 1) {
+      let {password} = data;
+      usersResult = await usersService.update(_id, {
+        id,
+        email,
+        password,
+      });
+    }
+    let {password, ...result} = usersResult;
+    return {...result};
+  }
 }
 
 module.exports = function(options) {

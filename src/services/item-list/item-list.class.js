@@ -33,9 +33,7 @@ class Service {
 
     if (type !== 'admin') {
       const notAdmin = new errors.BadRequest({
-        errors: {
-          email: 'User type mismatch',
-        },
+        errors: 'User type mismatch',
       });
       return notAdmin;
     }

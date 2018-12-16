@@ -10,6 +10,8 @@ module.exports = function(app) {
       simulasiId: {type: String, required: true},
       userId: {type: String, required: true},
       totalPrice: {type: Number, required: true},
+      pengiriman: {type: String, required: true}, // "ambil", dll
+      status: {type: String, default: 'pembayaran'}, // pembayaran / selesai
     },
     {
       timestamps: true,

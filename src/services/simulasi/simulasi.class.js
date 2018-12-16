@@ -103,6 +103,7 @@ class Service {
   async patch(id, data, params) {
     let {app} = this;
     let {_id: userId} = params.user;
+    let {pengiriman} = data;
     let perakitanService = app.service('perakitan');
     let perakitanResult = await perakitanService.find({
       query: {userId, status: 'simulasi'},
@@ -128,10 +129,10 @@ class Service {
       userId,
       totalPrice,
       simulasiId,
+      pengiriman,
     });
     return transaksiResult;
   }
-
   async remove(id, params) {
     let {app} = this;
     let {_id: userId} = params.user;

@@ -27,7 +27,7 @@ module.exports = function(app) {
         default: [],
       },
       status: {
-        type: String, // simulasi / pembayaran / perakitan / selesai
+        type: String, // simulasi / pembayaran
         default: 'simulasi',
       },
     },
