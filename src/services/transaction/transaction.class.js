@@ -25,27 +25,20 @@ class Service {
       });
       return notAdmin;
     }
-    return [];
-  }
-
-  async get(id, params) {
-    return {
-      id,
-      text: `A new message with ID: ${id}!`,
-    };
-  }
-
-  async create(data, params) {
-    if (Array.isArray(data)) {
-      return Promise.all(data.map((current) => this.create(current, params)));
+    let query;
+    console.log(params.query);
+    if (Object.keys(params.query).length > 0) {
+      query = {query: {...params}};
+    } else {
+      query = {};
     }
-
-    return data;
+    console.log(query);
+    let transaksiService = app.service('transaksi');
+    let transaksiResult = await transaksiService.find(query);
+    console.log(transaksiResult);
+    return transaksiResult.data;
   }
 
-  async update(id, data, params) {
-    return data;
-  }
   // TODO: admin only, finalize transaction
   // DATA: {transaksiId, userId, [status = 'selesai']}
   async patch(id, data, params) {
@@ -87,10 +80,6 @@ class Service {
     }
     return data;
   }
-
-  async remove(id, params) {
-    return {id};
-  }
 }
 
 module.exports = function(options) {
@@ -98,3 +87,15 @@ module.exports = function(options) {
 };
 
 module.exports.Service = Service;
+
+// METHOD: GET
+// PARAMS:
+// RETURN: [{transaksi}]
+// FUNCTION: Get all transaction or filter by params
+
+// METHOD: PATCH
+// ID:
+// DATA: {transaksiId, userId, [status]}
+// PARAMS:
+// RETURN: {DATA}
+// FUNCTION: Change transaction status from pembayaran to selesai by default or change it to status

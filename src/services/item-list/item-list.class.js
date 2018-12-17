@@ -96,10 +96,6 @@ class Service {
     return catalogResult;
   }
 
-  async patch(id, data, params) {
-    return data;
-  }
-
   async remove(id, params) {
     let {app} = this;
 
@@ -140,3 +136,27 @@ module.exports = function(options) {
 };
 
 module.exports.Service = Service;
+
+// METHOD: GET
+// PARAMS: {all=boolean} || {removed=boolean}
+// RETURN: [{catalog}]
+// FUNCTION: Get array of catalog items from list with determined 'removed' field
+
+// METHOD: POST
+// DATA: {name, casing, category, brand, price, picture}
+// PARAMS:
+// RETURN: {catalog}
+// FUNCTION: Create new catalog item
+
+// METHOD: PUT
+// ID:
+// DATA: {itemId, name, casing, category, brand, price, picture}
+// PARAMS:
+// RETURN: {catalog}
+// FUNCTION: Make changes to catalog item with id itemId
+
+// METHOD: REMOVE
+// ID: itemId
+// PARAMS:
+// RETURN: {catalog}
+// FUNCTION: Mark catalog item as removed, not really remove it

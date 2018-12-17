@@ -35,7 +35,7 @@ class Service {
       type,
       userID: usersResult._id,
     });
-    return data;
+    return {email, name, contactNumber, address, type};
   }
 }
 
@@ -44,3 +44,9 @@ module.exports = function(options) {
 };
 
 module.exports.Service = Service;
+
+// METHOD: POST
+// DATA: {email, password, name, contactNumber, address, type = 'customer'}
+// PARAMS:
+// RETURN: {email, name, contactNumber, address, type}
+// FUNCTION: Create new user with data and type

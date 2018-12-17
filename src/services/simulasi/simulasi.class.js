@@ -168,3 +168,34 @@ module.exports = function(options) {
 };
 
 module.exports.Service = Service;
+
+// METHOD: GET
+// PARAMS:
+// RETURN: {perakitan}
+// FUNCTION: Get simulation of logged in user, or make one if not available
+
+// METHOD: POST
+// DATA:
+// PARAMS:
+// RETURN: {perakitan}
+// FUNCTION: Force system to replace current simulation from logged in user to a new one
+
+// METHOD: PUT
+// ID:
+// DATA: {itemId,jumlah}
+// PARAMS:
+// RETURN: {perakitan}
+// FUNCTION: Update selected parts in simulation section
+
+// METHOD: PATCH
+// ID:
+// DATA: {pengiriman}
+// PARAMS:
+// RETURN: {perakitan}
+// FUNCTION: Change status of simulation from simulasi to pembayaran, and make transaction record
+
+// METHOD: REMOVE
+// ID:
+// PARAMS: {itemId}
+// RETURN: {perakitan}
+// FUNCTION: Remove a part from simulation selected parts

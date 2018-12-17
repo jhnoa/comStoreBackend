@@ -63,3 +63,22 @@ module.exports = function(options) {
 };
 
 module.exports.Service = Service;
+
+// METHOD: GET
+// PARAMS:
+// RETURN: {userData}
+// FUNCTION: Get Logged In UserData
+
+// METHOD: PUT
+// ID:
+// DATA: {name, contactNumber, address}
+// PARAMS:
+// RETURN: {DATA}
+// FUNCTION: Update UserData of Logged In User
+
+// METHOD: PATCH
+// ID:
+// DATA: {password}
+// PARAMS:
+// RETURN: {user}
+// FUNCTION: Change Password of Logged In User
