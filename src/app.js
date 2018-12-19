@@ -54,4 +54,8 @@ app.use(express.errorHandler({logger}));
 
 app.hooks(appHooks);
 
+// Extra Seeders
+
+require('./seeds')(app);
+
 module.exports = app;
