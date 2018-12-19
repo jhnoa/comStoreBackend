@@ -19,6 +19,9 @@ class Service {
     console.log(query);
     let catalogService = app.service('catalog');
     let catalogResult = await catalogService.find({query});
+    catalogResult = await catalogService.find({
+      query: {$limit: catalogResult.total, ...query},
+    });
 
     return catalogResult.data;
   }

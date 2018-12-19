@@ -6,19 +6,20 @@ let seeder = async(app) => {
   let catalogResult = await catalogService.find({});
   if (catalogResult.total === 0) {
     console.log('Seeding Catalog');
-    await catalogSeeds.forEach(async(element) => {
-      await catalogService.create({...element});
-    });
+    for (let index = 0; index < catalogSeeds.length; index++) {
+      await catalogService.create({...catalogSeeds[index]});
+    }
   }
   let usersService = app.service('users');
   let usersResult = await usersService.find({});
   if (usersResult.total === 0) {
     console.log('Seeding Users');
-    await usersSeeds.forEach(async(element) => {
-      await app
-        .service('registration')
-        .create({...element, ...userDataSeeds[usersSeeds.indexOf(element)]});
-    });
+    for (let index = 0; index < usersSeeds.length; index++) {
+      await app.service('registration').create({
+        ...usersSeeds[index],
+        ...userDataSeeds[index],
+      });
+    }
   }
 };
 
