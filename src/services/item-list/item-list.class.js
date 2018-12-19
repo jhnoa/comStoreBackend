@@ -23,6 +23,14 @@ class Service {
     return catalogResult.data;
   }
 
+  async get(id, params) {
+    let {app} = this;
+    let catalogService = app.service('catalog');
+    let catalogResult = await catalogService.find({query: {itemId: id}});
+
+    return catalogResult.data;
+  }
+
   async create(data, params) {
     let {app} = this;
 
@@ -141,6 +149,11 @@ module.exports.Service = Service;
 // PARAMS: {all=boolean} || {removed=boolean}
 // RETURN: [{catalog}]
 // FUNCTION: Get array of catalog items from list with determined 'removed' field
+
+// METHOD: GET
+// ID: {itemId}
+// RETURN: {catalog}
+// FUNCTION: Get item data from list with determined 'itemId' field
 
 // METHOD: POST
 // DATA: {name, casing, category, brand, price, picture}

@@ -38,7 +38,6 @@ class Service {
     return data;
   }
 
-  // TODO: Make patch to change password
   async patch(id, data, params) {
     let {app} = this;
 

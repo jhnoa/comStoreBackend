@@ -10,6 +10,7 @@ const userProfile = require('./user-profile/user-profile.service.js');
 const itemList = require('./item-list/item-list.service.js');
 const simulasi = require('./simulasi/simulasi.service.js');
 const transaction = require('./transaction/transaction.service.js');
+const adminUserList = require('./admin-user-list/admin-user-list.service.js');
 // eslint-disable-next-line no-unused-vars
 module.exports = function(app) {
   app.configure(users);
@@ -24,4 +25,5 @@ module.exports = function(app) {
   app.configure(itemList);
   app.configure(simulasi);
   app.configure(transaction);
+  app.configure(adminUserList);
 };

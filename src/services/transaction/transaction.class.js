@@ -8,7 +8,6 @@ class Service {
   async setup(app) {
     this.app = app;
   }
-  // TODO: admin only, get all transaction except params is available
   async find(params) {
     let {app} = this;
 
@@ -39,8 +38,8 @@ class Service {
     return transaksiResult.data;
   }
 
-  // TODO: admin only, finalize transaction
-  // DATA: {transaksiId, userId, [status = 'selesai']}
+  // Make GET 1 data transaksi
+
   async patch(id, data, params) {
     let {app} = this;
 
