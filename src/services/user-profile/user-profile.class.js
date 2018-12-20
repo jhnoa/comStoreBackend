@@ -55,6 +55,9 @@ class Service {
     let {password, ...result} = usersResult;
     return {...result};
   }
+  async remove(id, params) {
+    return {isAuthenticated: true};
+  }
 }
 
 module.exports = function(options) {
