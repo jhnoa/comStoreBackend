@@ -5,7 +5,7 @@ module.exports = [
     casing: '-',
     category: 'speaker',
     brand: 'logitech',
-    price: 'Rp 195,000',
+    price: 195000,
     picture: 'Z120 Mini Stereo Speaker 2.0 [980-000514].png',
   },
   {
@@ -14,7 +14,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'VGA',
     brand: 'Igame',
-    price: 'Rp 4,189,000',
+    price: 4189000,
     picture: 'nVidia Geforce GTX 1060 Graphics Card [6 GBDDR5U-6GDual Fan].png',
   },
   {
@@ -23,7 +23,7 @@ module.exports = [
     casing: 'tower',
     category: 'motherboard',
     brand: 'Asus',
-    price: 'Rp 5,230,000',
+    price: 5230000,
     picture: 'ASUS ROG Maximus VIII Hero Skylake Motherboard.png',
   },
   {
@@ -32,7 +32,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'VGA',
     brand: 'Zotac',
-    price: 'Rp 8,330,000',
+    price: 8330000,
     picture:
       'Zotac GTX 1070 nVidia Geforce VGA Card [AMP Edition 8GB DDR5].png',
   },
@@ -42,7 +42,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'VGA',
     brand: 'Zotac',
-    price: 'Rp 5,500,000',
+    price: 5500000,
     picture: 'ZOTAC nVidia Geforce GTX 1060 VGA Card [AMP Edition6GB DDR5].png',
   },
   {
@@ -51,7 +51,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'VGA',
     brand: 'Zotac',
-    price: 'Rp 1,850,000',
+    price: 1850000,
     picture: 'ZOTAC Geforce GTX 750 Ti Graphic Card [2048 MBDDR5].png',
   },
   {
@@ -60,7 +60,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'VGA',
     brand: 'Galax',
-    price: 'Rp 2,010,000',
+    price: 2010000,
     picture:
       'Galax nVidia Geforce GTX 750 Ti EXOC VGA Card [2 GBDDR5Dual Fan].png',
   },
@@ -70,7 +70,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'VGA',
     brand: 'zotac',
-    price: 'Rp 11,099,000',
+    price: 11099000,
     picture:
       'ZOTAC nVidia Geforce GTX 1080 AMP Edition VGA Card [8 GB DDR5X].png',
   },
@@ -80,7 +80,7 @@ module.exports = [
     casing: 'tower',
     category: 'motherboard',
     brand: 'asus',
-    price: 'Rp 3,600,000',
+    price: 3600000,
     picture: 'ASUS Z170A Motherboard.png',
   },
   {
@@ -90,7 +90,7 @@ module.exports = [
     casing: '-',
     category: 'desktop',
     brand: 'cube',
-    price: 'Rp 17,389,000',
+    price: 17389000,
     picture:
       'Cube Gaming Weiss Black Intel PC 3 [Intel Core i5-6500GTX 1070 8GB16GB RAM DDR4240GB SSDWIFI].png',
   },
@@ -101,7 +101,7 @@ module.exports = [
     casing: '-',
     category: 'desktop',
     brand: 'raijintek',
-    price: 'Rp 22,598,000',
+    price: 22598000,
     picture:
       'Raijintek Nestor Black 6 PC Desktop [Intel i5-6500 SkylakeNvidia GTX 1060 6GB16GB RAMSSD 240GBWIFI22 InchWin 10].png',
   },
@@ -111,7 +111,7 @@ module.exports = [
     casing: '-',
     category: 'USB / flashdisk',
     brand: 'sandisk',
-    price: 'Rp 149,000',
+    price: 149000,
     picture: 'Sandisk CZ73 Ultra Flair Flashdisk [32 GBUSB 3.0150MBs].png',
   },
   {
@@ -120,7 +120,7 @@ module.exports = [
     casing: '-',
     category: 'USB / flashdisk',
     brand: 'sandisk',
-    price: 'Rp 109,000',
+    price: 109000,
     picture: 'SanDisk Cruzer Fit CZ33 Flashdisk [16 GB].png',
   },
   {
@@ -130,7 +130,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'prosesor',
     brand: 'amd',
-    price: 'Rp 2,835,000',
+    price: 2835000,
     picture:
       'AMD Vishera FX-8350 Prosesor [4.0 GhzCache 8 MB125 wattAM3+8 Core].png',
   },
@@ -141,7 +141,7 @@ module.exports = [
     casing: '-',
     category: 'desktop PC',
     brand: 'raijintek',
-    price: 'Rp 21,185,000',
+    price: 21185000,
     picture:
       'Raijintek Nestor Desktop PC - Black [Intel i7-6700K SkylakeNvidia GTX 1060 6GB16GB RAMSSD 480GBWiFiWin 10].png',
   },
@@ -151,7 +151,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'zotac',
-    price: 'Rp 8,760,000',
+    price: 8760000,
     picture:
       'Zotac nVidia Geforce GTX 1070 AMP Extreme Graphic Card – [8 GBDDR5].png',
   },
@@ -161,7 +161,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'motherboard',
     brand: 'asus',
-    price: 'Rp 3,830,000',
+    price: 3830000,
     picture: 'ASUS Z170i Pro Gaming Motherboard [Mini itx].png',
   },
   {
@@ -170,7 +170,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'galax',
-    price: 'Rp 2,329,500',
+    price: 2329500,
     picture: 'Galax GTX 1050 Ti OC Series Graphic Card [4GB DDR5].png',
   },
   {
@@ -179,7 +179,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'razer',
-    price: 'Rp 1,010,000',
+    price: 1010000,
     picture: 'Razer DeathAdder Chroma Gaming Mouse.png',
   },
   {
@@ -188,7 +188,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'motherboard',
     brand: 'asus',
-    price: 'Rp 2,920,000',
+    price: 2920000,
     picture: 'ASUS Z170M Plus Motherboard.png',
   },
   {
@@ -198,7 +198,7 @@ module.exports = [
     casing: '-',
     category: 'desktop PC',
     brand: 'cube',
-    price: 'Rp 12,179,000',
+    price: 12179000,
     picture:
       'Cube Gaming Weiss Black Intel PC 1 [Intel Core i5-6400GTX 1060 3GB16GB RAM DDR4120GB SSDWIFI].png',
   },
@@ -208,7 +208,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'galax',
-    price: 'Rp 955,000',
+    price: 955000,
     picture: 'Galax nVidia Geforce GT 730 VGA Card [1 GBDDR564 Bit].png',
   },
   {
@@ -217,7 +217,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'xfx',
-    price: 'Rp 2,399,000',
+    price: 2399000,
     picture: 'XFX Radeon R7 370 Black Edition VGA Card [2 GBDDR5Dual Fan].png',
   },
   {
@@ -226,7 +226,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'prosesor',
     brand: 'amd',
-    price: 'Rp 1,595,000',
+    price: 1595000,
     picture:
       'AMD Vishera FX-6300 Processor [3.5 GhzCache 6MB95WAM3+6 Core].png',
   },
@@ -237,7 +237,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'prosesor',
     brand: 'amd',
-    price: 'Rp 1,835,000',
+    price: 1835000,
     picture:
       'AMD Godavari A8-7670K Prosesor [Radeon R7 series3.6GhzCache 2x2MB95WSocket FM2+].png',
   },
@@ -248,7 +248,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'psu',
     brand: 'antec',
-    price: 'Rp 1,049,000',
+    price: 1049000,
     picture:
       'Antec NeoECO II Power Supply [550W80+ Bronze Certified3 Years Warranty].png',
   },
@@ -259,7 +259,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'prosesor',
     brand: 'amd',
-    price: 'Rp 1,299,000',
+    price: 1299000,
     picture:
       'AMD Kaveri Athlon X4-860K Prosesor [Quad Core 3.7GhzCache 4MB95WSocket FM2+With 95W Quiet Cooler].png',
   },
@@ -270,7 +270,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'proccesor',
     brand: 'amd',
-    price: 'Rp 1,399,000',
+    price: 1399000,
     picture:
       'AMD Kaveri A8-7600 Prosesor [Radeon R7 series3.1 GhzCache 2x2MB65WSocket FM2+].png',
   },
@@ -281,7 +281,7 @@ module.exports = [
     casing: '-',
     category: 'desktop PC',
     brand: 'cube',
-    price: 'Rp 21,900,000',
+    price: 21900000,
     picture:
       'Cube Gaming Weiss Black Intel PC 5 [Intel Core i7-6700KGTX 1070 8GB32GB RAM DDR4240GB SSDWIFI].png',
   },
@@ -292,7 +292,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'gigabyte',
-    price: 'Rp 7,100,000',
+    price: 7100000,
     picture:
       'Gigabyte Geforce GV-N970IXOC-4GD VGA GTX970 OC Graphic card [4096MBDDR5].png',
   },
@@ -302,7 +302,7 @@ module.exports = [
     casing: '-',
     category: 'USB / flashdisk',
     brand: 'sandisk',
-    price: 'Rp 287,000',
+    price: 287000,
     picture: 'Sandisk Cruzer Ultra Fit CZ43 Flashdisk [USB 3.064 GB].png',
   },
   {
@@ -311,7 +311,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'hard disk',
     brand: 'samsung',
-    price: 'Rp 6,800,000',
+    price: 6800000,
     picture: 'Samsung PRO 850 Hard Disk SSD [1 TB] + Kalender.png',
   },
   {
@@ -320,7 +320,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'hard disk',
     brand: 'samsung',
-    price: 'Rp 1,300,000',
+    price: 1300000,
     picture: 'Samsung 850 EVO SSD [2.5 Inch250 GB].png',
   },
   {
@@ -329,7 +329,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'galax',
-    price: 'Rp 2,629,000',
+    price: 2629000,
     picture: 'Galax nVidia Geforce GTX 950 EXOC VGA Card [2 GBDDR5].png',
   },
   {
@@ -339,7 +339,7 @@ module.exports = [
     casing: '-',
     category: 'desktop PC',
     brand: 'cube',
-    price: 'Rp 24,389,000',
+    price: 24389000,
     picture:
       'Cube Gaming Weiss Black Intel PC 7 [Intel Core i7-6700KGTX 1080 8GB32GB RAM DDR4240GB SSDWIFI].png',
   },
@@ -350,7 +350,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'galax',
-    price: 'Rp 4,215,000',
+    price: 4215000,
     picture:
       'Galax nVidia Geforce GTX 960 EXOC VGA Card – Black Edition [4 GBDDR5].png',
   },
@@ -360,7 +360,7 @@ module.exports = [
     casing: 'tower',
     category: 'motherboard',
     brand: 'asus',
-    price: 'Rp 1,048,000',
+    price: 1048000,
     picture: 'ASUS H81M-E Motherboard [Socket 1150].png',
   },
   {
@@ -369,7 +369,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'galax',
-    price: 'Rp 8,240,000',
+    price: 8240000,
     picture: "Galax nVidia GTX1070 Founder's Edition VGA card.png",
   },
   {
@@ -378,7 +378,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'cougar',
-    price: 'Rp 897,000',
+    price: 897000,
     picture:
       'Cougar 700M eSpoprts Edition Aluminum Laser Gaming Mouse - White.png',
   },
@@ -389,7 +389,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'galax',
-    price: 'Rp 2,495,000',
+    price: 2495000,
     picture:
       'Galax nVidia Geforce GTX 950 OC Mini Single Fan VGA Card [2 GBDDR5].png',
   },
@@ -399,7 +399,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'motherboard',
     brand: 'asus',
-    price: 'Rp 2,515,000',
+    price: 2515000,
     picture: 'Asus H170 Plus D3 Motherboard [LGA 1151H170DDR3].png',
   },
   {
@@ -409,7 +409,7 @@ module.exports = [
     casing: '-',
     category: 'laptop',
     brand: 'acer',
-    price: 'Rp 7,299,999',
+    price: 7299999,
     picture:
       'Acer Aspire intel Gen 7 E5-475G Notebook [Core I5 Gen7 Kabylake 7200UNVidia Gforce GT940MXIntel HD 620DDR4].png',
   },
@@ -419,7 +419,7 @@ module.exports = [
     casing: '-',
     category: 'USB / flashdisk',
     brand: 'kingston',
-    price: 'Rp 149,800',
+    price: 149800,
     picture: 'Kingston DTDUO3 Flashdisk OTG [16 GBUSB 3.0].png',
   },
   {
@@ -428,7 +428,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'hard disk',
     brand: 'galax',
-    price: 'Rp 750,000',
+    price: 750000,
     picture: 'Galax Gamer SSD Hard Disk [120 GB].png',
   },
   {
@@ -437,7 +437,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'hard disk',
     brand: 'galax',
-    price: 'Rp 2,092,000',
+    price: 2092000,
     picture: 'Galax GAMER SSD [480 GB].png',
   },
   {
@@ -446,7 +446,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'hard disk',
     brand: 'crucial',
-    price: 'Rp 2,749,900',
+    price: 2749900,
     picture: 'Crucial MX200 Hard Disk [500 GB].png',
   },
   {
@@ -455,7 +455,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'galax',
-    price: 'Rp 10,900,000',
+    price: 10900000,
     picture:
       'Galax nVidia Geforce GTX 980 Ti VGA Card - Black Edition [6GBDDR5].png',
   },
@@ -466,7 +466,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'prosesor',
     brand: 'amd',
-    price: 'Rp 2,125,000',
+    price: 2125000,
     picture:
       'AMD Vishera FX-8320E Prosesor [3.2 GhzCache 8 MB95 wattAM3+8 Core].png',
   },
@@ -477,7 +477,7 @@ module.exports = [
     casing: '-',
     category: 'desktop',
     brand: 'raijintek',
-    price: 'Rp 16,230,000',
+    price: 16230000,
     picture:
       'Raijintek Nestor 5 Desktop PC - Black [Intel i5-6500 SkylakeRadeon RX 470 4GB16GB RAMSSD 240GBWIFIWin 10].png',
   },
@@ -488,7 +488,7 @@ module.exports = [
     casing: '-',
     category: 'desktop',
     brand: 'raijintek',
-    price: 'Rp 17,770,000',
+    price: 17770000,
     picture:
       'Raijintek Nestor 6 PC Desktop - Black [Intel i5-6500 SkylakeNvidia GTX 1060 6GB16 GB RAMSSD 240 GBWIFIWin 10].png',
   },
@@ -498,7 +498,7 @@ module.exports = [
     casing: '-',
     category: 'laptop',
     brand: 'asus',
-    price: 'Rp 9,299,000',
+    price: 9299000,
     picture: 'Asus X556UQ-XX040T [i5 62008GBNvidia GT940MX-2GB15.6 inch].png',
   },
   {
@@ -508,7 +508,7 @@ module.exports = [
     casing: '-',
     category: 'laptop',
     brand: 'acer',
-    price: 'Rp 6,099,000',
+    price: 6099000,
     picture:
       'Acer Aspire E5-475G Notebook [14 inchi3-6100UnVidia GT940MX2 GB500 GB].png',
   },
@@ -519,7 +519,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'PSU',
     brand: 'antec',
-    price: 'Rp 885,000',
+    price: 885000,
     picture:
       'Antec NeoECO II Power Supply [450W80+ Bronze Certified3 Years Warranty].png',
   },
@@ -529,7 +529,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'galax',
-    price: 'Rp 1,685,000',
+    price: 1685000,
     picture: 'Galax nVidia Geforce GT 740 OC Slim VGA Card [2 GBDDR5].png',
   },
   {
@@ -538,7 +538,7 @@ module.exports = [
     casing: '-',
     category: 'USB / flashdisk',
     brand: 'kingston',
-    price: 'Rp 130,000',
+    price: 130000,
     picture: 'Kingston DataTraveler Generation 4 DTIG4 Flashdisk [16 GB].png',
   },
   {
@@ -547,7 +547,7 @@ module.exports = [
     casing: '-',
     category: 'hard disk',
     brand: 'samsung',
-    price: 'Rp 1,300,000',
+    price: 1300000,
     picture: 'Samsung 850 PRO Hard Disk SSD [128 GB2.5 Inch].png',
   },
   {
@@ -556,7 +556,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'cougar',
-    price: 'Rp 679,000',
+    price: 679000,
     picture: 'Cougar 550M Gaming Mouse - Blue.png',
   },
   {
@@ -565,7 +565,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'galax',
-    price: 'Rp 4,459,000',
+    price: 4459000,
     picture: 'Galax nVidia Geforce GTX 1060 EXOC Dual Fan [6GBDDR5].png',
   },
   {
@@ -575,7 +575,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'Igame',
-    price: 'Rp 9,959,000',
+    price: 9959000,
     picture:
       'iGame nVidia Geforce GTX 1080 X-TOP-8G Graphic Card [8GB DDR5XTriple Fan].png',
   },
@@ -586,7 +586,7 @@ module.exports = [
     casing: '-',
     category: 'desktop PC',
     brand: 'cube',
-    price: 'Rp 17,030,000',
+    price: 17030000,
     picture:
       'Cube Gaming Weiss Black Intel PC 2 [Intel Core i5-6500GTX 1060 6GB16GB RAM DDR4240GB SSDWIFI].png',
   },
@@ -596,7 +596,7 @@ module.exports = [
     casing: '-',
     category: 'desktop PC',
     brand: 'segotep',
-    price: 'Rp 2,989,000',
+    price: 2989000,
     picture: 'Segotep S2 Intel PC [intel G3250 4GB RAM320GB HDDWIFI].jpg',
   },
   {
@@ -606,7 +606,7 @@ module.exports = [
     casing: '-',
     category: 'laptop',
     brand: 'acer',
-    price: 'Rp 8,999,999',
+    price: 8999999,
     picture:
       'ACER Aspire E5-475G Win 10 Notebook [i5-6200U]4GB DDR4GT 940M 2GBSSD 128GB.png',
   },
@@ -617,7 +617,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'galax',
-    price: 'Rp 11,350,000',
+    price: 11350000,
     picture:
       'Galax nVidia Geforce GTX 980 Ti HOF VGA Card - GOC Edition [6GBDDR5].png',
   },
@@ -627,7 +627,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'galax',
-    price: 'Rp 995,800',
+    price: 995800,
     picture: 'Galax nVidia Geforce GT 730 VGA Card [2 GBDDR3128 Bit].png',
   },
   {
@@ -636,7 +636,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'galax',
-    price: 'Rp 14,955,000',
+    price: 14955000,
     picture: 'Galax GeForce GTX 1080 EXOC Graphic Card [8GB DDR5XDual Fan].png',
   },
   {
@@ -645,7 +645,7 @@ module.exports = [
     casing: '-',
     category: 'keyboard',
     brand: 'cougar',
-    price: 'Rp 1,915,000',
+    price: 1915000,
     picture:
       'Cougar 700K Cherry MX Brown switch Mechanical Gaming Keyboard.png',
   },
@@ -655,7 +655,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'cougar',
-    price: 'Rp 628,000',
+    price: 628000,
     picture: 'Cougar 450M Gaming Mouse - Black.png',
   },
   {
@@ -665,7 +665,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'psu',
     brand: 'antec',
-    price: 'Rp 1,865,000',
+    price: 1865000,
     picture:
       'Antec Edge EDG650 Power Supply [650 W80+ Gold CertifiedFull ModularLED Fan5 Years Warranty].png',
   },
@@ -676,7 +676,7 @@ module.exports = [
     casing: '-',
     category: 'laptop',
     brand: 'asus',
-    price: 'Rp 9,099,000',
+    price: 9099000,
     picture:
       'Asus X456UQ-WX016T Metal Notebook [14Inchi5-6200UNvidia GT940MX 2GB8GB1TB].png',
   },
@@ -686,7 +686,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'galax',
-    price: 'Rp 8,650,000',
+    price: 8650000,
     picture: 'Galax nVidia Geforce GTX 980 HOF VGA Card [4GBDDR5].png',
   },
   {
@@ -695,7 +695,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'galax',
-    price: 'Rp 7,370,000',
+    price: 7370000,
     picture: 'Galax nVidia Geforce GTX 1070 EXOC Dual Fan [8 GB DDR5].png',
   },
   {
@@ -705,7 +705,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'Igame',
-    price: 'Rp 6,399,000',
+    price: 6399000,
     picture:
       'Igame nVidia Geforce GTX 1070 Graphic Card [8GB DDR5U-TOP-8GTriple Fan].png',
   },
@@ -715,7 +715,7 @@ module.exports = [
     casing: '-',
     category: 'USB / flashdisk',
     brand: 'sandisk',
-    price: 'Rp 161,000',
+    price: 161000,
     picture: 'Sandisk Cruzer Ultra Fit CZ43 Flashdisk [USB 3.032 GB].png',
   },
   {
@@ -724,7 +724,7 @@ module.exports = [
     casing: '-',
     category: 'USB / flashdisk',
     brand: 'sandisk',
-    price: 'Rp 123,000',
+    price: 123000,
     picture: 'Sandisk CZ73 Ultra Flair Flashdisk [16 GBUSB 3.0130 MBs].png',
   },
   {
@@ -734,7 +734,7 @@ module.exports = [
     casing: '-',
     category: 'keyboard',
     brand: 'cougar',
-    price: 'Rp 1,535,000',
+    price: 1535000,
     picture:
       'Cougar Attack X3 Mechanical Gaming Keyboard - Cherry MX Brown switch.png',
   },
@@ -744,7 +744,7 @@ module.exports = [
     casing: '-',
     category: 'keyboard',
     brand: 'cougar',
-    price: 'Rp 1,039,000',
+    price: 1039000,
     picture: 'Cougar 500K Membrane Gaming Keyboard.png',
   },
   {
@@ -753,7 +753,7 @@ module.exports = [
     casing: '-',
     category: 'keyboard',
     brand: 'cougar',
-    price: 'Rp 1,535,000',
+    price: 1535000,
     picture:
       'Cougar Attack X3 Mechanical Gaming Keyboard - Cherry MX Blue switch.png',
   },
@@ -763,7 +763,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'hard disk',
     brand: 'samsung',
-    price: 'Rp 893,500',
+    price: 893500,
     picture: 'Samsung 850 EVO 120 GB Hard Disk SSD + Kalender.png',
   },
   {
@@ -772,7 +772,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'hard disk',
     brand: 'crucial',
-    price: 'Rp 4,450,000',
+    price: 4450000,
     picture: 'Crucial BX200 Hard Disk [960 GB].png',
   },
   {
@@ -781,7 +781,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'hard disk',
     brand: 'crucial',
-    price: 'Rp 1,485,000',
+    price: 1485000,
     picture: 'Crucial MX200 Hard Disk [250 GB].png',
   },
   {
@@ -790,7 +790,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'razer',
-    price: 'Rp 950,000',
+    price: 950000,
     picture: 'Razer Naga 2014 Gaming Mouse.png',
   },
   {
@@ -799,7 +799,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'zotac',
-    price: 'Rp 5,090,000',
+    price: 5090000,
     picture:
       'Zotac nVidia Geforce GTX 1060 Mini Edition Graphic Card [6GB DDR5].png',
   },
@@ -810,7 +810,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'Igame',
-    price: 'Rp 9,659,000',
+    price: 9659000,
     picture:
       'iGame nVidia Geforce GTX 1080 U-TOP-8G Graphic Card [8GB DDR5XTriple Fan].png',
   },
@@ -821,7 +821,7 @@ module.exports = [
     casing: '-',
     category: 'desktop',
     brand: 'raijintek',
-    price: 'Rp 19,990,000',
+    price: 19990000,
     picture:
       'Raijintek Nestor 5 Desktop PC - Black [Intel i5-6500 SkylakeRadeon RX 470 4GB16GB RAMSSD 240GBWIFIWin 1022 Inch LED FHDKeyboardMouse].png',
   },
@@ -832,7 +832,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'psu',
     brand: 'antec',
-    price: 'Rp 2,085,000',
+    price: 2085000,
     picture:
       'Antec Edge EDG750 Power Supply [750 W80+ Gold CertifiedFull ModularLED Fan5 Years Warranty].png',
   },
@@ -842,7 +842,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'ram',
     brand: 'avexir',
-    price: 'Rp 562,000',
+    price: 562000,
     picture:
       'Avexir SO-DIMM DDR3 PC12800 Memory RAM [8 GB1 x 8Low Voltage].png',
   },
@@ -852,7 +852,7 @@ module.exports = [
     casing: 'tower',
     category: 'motherboard',
     brand: 'asrock',
-    price: 'Rp 1,298,000',
+    price: 1298000,
     picture: 'ASRock H110M-HDV Motherboard [LGA 1151H110DDR4].png',
   },
   {
@@ -861,7 +861,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'hard disk',
     brand: 'galax',
-    price: 'Rp 1,250,000',
+    price: 1250000,
     picture: 'Galax Gamer SSD Hard Disk [240 GB].png',
   },
   {
@@ -870,7 +870,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'hard disk',
     brand: 'galax',
-    price: 'Rp 1,250,000',
+    price: 1250000,
     picture: 'Crucial BX200 Hard Disk [480 GB].png',
   },
   {
@@ -879,7 +879,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'hard disk',
     brand: 'cougar',
-    price: 'Rp 145,000',
+    price: 145000,
     picture: 'Cougar SPEED-S Gaming Mouse Pad [260 x 210 x 4mm].png',
   },
   {
@@ -888,7 +888,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'cougar',
-    price: 'Rp 629,000',
+    price: 629000,
     picture: 'Cougar 530M Gaming Mouse - Silver.png',
   },
   {
@@ -897,7 +897,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'cougar',
-    price: 'Rp 508,000',
+    price: 508000,
     picture: 'Cougar 500M Gaming Mouse - Black.png',
   },
   {
@@ -907,7 +907,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'psu',
     brand: 'antec',
-    price: 'Rp 1,249,000',
+    price: 1249000,
     picture:
       'Antec NeoECO II Power Supply [650W80+ Bronze Certified3 Years Warranty].png',
   },
@@ -917,7 +917,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'cpu cooler',
     brand: 'antec',
-    price: 'Rp 1,499,000',
+    price: 1499000,
     picture:
       'Antec Kuhler H2O H1200 PRO CPU Cooler [240mm RadiatorDual Fan].png',
   },
@@ -928,7 +928,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'galax',
-    price: 'Rp Rp 7,990,000',
+    price: 7990000,
     picture:
       'Galax nVidia Geforce GTX 1070 HOF Graphic Card [8GB DDR5Triple Fan].png',
   },
@@ -938,7 +938,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'motherboard',
     brand: 'asus',
-    price: 'Rp 2,810,000',
+    price: 2810000,
     picture: 'ASUS H170 Pro Gaming Skylake Motherboard.png',
   },
   {
@@ -947,7 +947,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'psu',
     brand: 'antec',
-    price: 'Rp 4,390,000',
+    price: 4390000,
     picture: 'Antec High Current Pro PC Power Supply.png',
   },
   {
@@ -956,7 +956,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'motherboard',
     brand: 'asus',
-    price: 'Rp 2,810,000',
+    price: 2810000,
     picture: 'ASUS H170 Pro Gaming Skylake Motherboard.png',
   },
   {
@@ -966,7 +966,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'psu',
     brand: 'antec',
-    price: 'Rp 1,670,000',
+    price: 1670000,
     picture:
       'Antec Edge EDG550 Power Supply [550 W80+ Gold CertifiedFull ModularLED Fan5 Years Warranty].png',
   },
@@ -976,7 +976,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'psu',
     brand: 'antec',
-    price: 'Rp 4,480,000',
+    price: 4480000,
     picture: 'Antec High Current Pro PC Power Supply.png',
   },
   {
@@ -986,7 +986,7 @@ module.exports = [
     casing: 'tower',
     category: 'motherboard',
     brand: 'gigabyte',
-    price: 'Rp 2,990,000',
+    price: 2990000,
     picture:
       'Gigabyte GA-Z170-HD3 Intel Z170 Motherboard [LGA1151DDR4USB3.1ATX].png',
   },
@@ -996,7 +996,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'motherboard',
     brand: 'msi',
-    price: 'Rp 1,429,000',
+    price: 1429000,
     picture: 'MSI H110M-PRO VH Motherboard [LGA 1151H110DDR4].png',
   },
   {
@@ -1005,7 +1005,7 @@ module.exports = [
     casing: 'tower',
     category: 'motherboard',
     brand: 'msi',
-    price: 'Rp 1,798,000',
+    price: 1798000,
     picture: 'MSi B150M-PRO VDH Motherboard [LGA 1151B150DDR4].png',
   },
   {
@@ -1015,7 +1015,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'vga',
     brand: 'Igame',
-    price: 'Rp 6,779,000',
+    price: 6779000,
     picture:
       'Igame nVidia Geforce GTX 1070 Graphic Card [8GB DDR5X-TOP-8GTriple Fan].png',
   },
@@ -1026,7 +1026,7 @@ module.exports = [
     casing: '-',
     category: 'desktop PC',
     brand: 'segotep',
-    price: 'Rp 3,520,000',
+    price: 3520000,
     picture:
       'Segotep AND 2 TT Desktop PC [Intel PC Bundle-G4400 Skylake4GB RAM DDR4] + Free Wifi USB Adapter.png',
   },
@@ -1037,7 +1037,7 @@ module.exports = [
     casing: '-',
     category: 'desktop PC',
     brand: 'segotep',
-    price: 'Rp 3,399,000',
+    price: 3399000,
     picture:
       'Segotep AND 1 Desktop PC [Intel PC BundleG4400 Skylake4GB RAM DDR4].png',
   },
@@ -1047,7 +1047,7 @@ module.exports = [
     casing: '-',
     category: 'USB / flashdisk',
     brand: 'sandisk',
-    price: 'Rp 73,000',
+    price: 73000,
     picture: 'Sandisk Cruzer Fit CZ33 Flashdisk [8 GB].png',
   },
   {
@@ -1056,7 +1056,7 @@ module.exports = [
     casing: '-',
     category: 'USB / flashdisk',
     brand: 'sandisk',
-    price: 'Rp 139,000',
+    price: 139000,
     picture: 'Sandisk Cruzer Ultra Fit CZ43 Flashdisk [USB 3.016 GB].png',
   },
   {
@@ -1065,7 +1065,7 @@ module.exports = [
     casing: '-',
     category: 'USB / flashdisk',
     brand: 'sandisk',
-    price: 'Rp 265,000',
+    price: 265000,
     picture: 'Sandisk Ultra CZ48 USB 3.0 Flashdisk [64 GB].png',
   },
   {
@@ -1074,7 +1074,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'steelseries',
-    price: 'Rp 950,000',
+    price: 950000,
     picture: 'SteelSeries Rival 300 Black Gaming Mouse.png',
   },
   {
@@ -1083,7 +1083,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'cougar',
-    price: 'Rp 508,000',
+    price: 508000,
     picture: 'Cougar 300M Gaming Mouse - Orange.png',
   },
   {
@@ -1092,7 +1092,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'cougar',
-    price: 'Rp 399,700',
+    price: 399700,
     picture: 'Cougar Cougar 250M Gaming Mouse - White.png',
   },
   {
@@ -1101,7 +1101,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'cougar',
-    price: 'Rp 293,000',
+    price: 293000,
     picture: 'Cougar 230M Gaming Mouse - Yellow.png',
   },
   {
@@ -1110,7 +1110,7 @@ module.exports = [
     casing: '-',
     category: 'mouse pad',
     brand: 'cougar',
-    price: 'Rp 223,000',
+    price: 223000,
     picture: 'Cougar CONTROL-L Gaming Mouse Pad [450 x 400 x 4mm].png',
   },
   {
@@ -1119,7 +1119,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'cougar',
-    price: 'Rp 897,000',
+    price: 897000,
     picture:
       'Cougar 700M eSpoprts Edition Aluminum Laser Gaming Mouse - Black.png',
   },
@@ -1129,7 +1129,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'cougar',
-    price: 'Rp 679,000',
+    price: 679000,
     picture: 'Cougar 550M Gaming Mouse - Iron Grey.png',
   },
   {
@@ -1138,7 +1138,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'cougar',
-    price: 'Rp 629,000',
+    price: 629000,
     picture: 'Cougar 530M Gaming Mouse - Army Green.png',
   },
   {
@@ -1147,7 +1147,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'cougar',
-    price: 'Rp 508,000',
+    price: 508000,
     picture: 'Cougar 500M Gaming Mouse - White.png',
   },
   {
@@ -1156,7 +1156,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'cougar',
-    price: 'Rp 525,000',
+    price: 525000,
     picture: 'Cougar 400M Gaming Mouse - Grey.png',
   },
   {
@@ -1165,7 +1165,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'cougar',
-    price: 'Rp 508,000',
+    price: 508000,
     picture: 'Cougar 300M Gaming Mouse - Yellow.png',
   },
   {
@@ -1174,7 +1174,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'cougar',
-    price: 'Rp 293,000',
+    price: 293000,
     picture: 'Cougar 230M Gaming Mouse - Red.png',
   },
   {
@@ -1183,7 +1183,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'cougar',
-    price: 'Rp 239,000',
+    price: 239000,
     picture: 'Cougar 200M Gaming Mouse - Orange.png',
   },
   {
@@ -1192,7 +1192,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'steelseries',
-    price: 'Rp 885,000',
+    price: 885000,
     picture: 'SteelSeries Sensei COD Ops 2 Mouse - Black.png',
   },
   {
@@ -1201,7 +1201,7 @@ module.exports = [
     casing: '-',
     category: 'keyboard',
     brand: 'cougar',
-    price: 'Rp 1,915,000',
+    price: 1915000,
     picture:
       'Cougar 700K Cherry MX switch Mechanical Gaming Keyboard - Blue.png',
   },
@@ -1211,7 +1211,7 @@ module.exports = [
     casing: '-',
     category: 'keyboard',
     brand: 'cougar',
-    price: 'Rp 1,589,000',
+    price: 1589000,
     picture: 'Cougar 600K Cherry MX Red switch Mechanical Gaming Keyboard.png',
   },
   {
@@ -1220,7 +1220,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'steelseries',
-    price: 'Rp 950,000',
+    price: 950000,
     picture: 'SteelSeries Rival 300 Black Gaming Mouse.png',
   },
   {
@@ -1229,7 +1229,7 @@ module.exports = [
     casing: '-',
     category: 'mouse',
     brand: 'cougar',
-    price: 'Rp 239,000',
+    price: 239000,
     picture: 'Cougar 200M Gaming Mouse - Black.png',
   },
   {
@@ -1238,7 +1238,7 @@ module.exports = [
     casing: '-',
     category: 'mouse pad',
     brand: 'cougar',
-    price: 'Rp 178,000',
+    price: 178000,
     picture: 'Cougar CONTROL-M Gaming Mouse Pad [320 x 270 x 4mm].png',
   },
   {
@@ -1247,7 +1247,7 @@ module.exports = [
     casing: '-',
     category: 'mouse pad',
     brand: 'cougar',
-    price: 'Rp 178,000',
+    price: 178000,
     picture: 'Cougar SPEED-M Gaming Mouse Pad [320 x 270 x 4mm].png',
   },
   {
@@ -1257,7 +1257,7 @@ module.exports = [
     casing: '-',
     category: 'laptop',
     brand: 'msi',
-    price: 'Rp 25,999,000',
+    price: 25999000,
     picture:
       'MSI GE62VR 6RF Apache Pro [Intel i7-6700HQGTX 1060 6GBRAM 16GB128GB SSD].png',
   },
@@ -1268,7 +1268,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'ram',
     brand: 'avexir',
-    price: 'Rp 690,000',
+    price: 690000,
     picture:
       'Avexir DDR3 PC12800 Memory RAM for PC - Core Blue [8 GB2 x 4 GBKIT Dual Channel].png',
   },
@@ -1278,7 +1278,7 @@ module.exports = [
     casing: '-',
     category: 'router',
     brand: 'linksys',
-    price: 'Rp 498,900',
+    price: 498900,
     picture: 'Linksys E1200 Hitam Wireless N Router.png',
   },
   {
@@ -1287,7 +1287,7 @@ module.exports = [
     casing: '-',
     category: 'router',
     brand: 'steelseries',
-    price: 'Rp 925,000',
+    price: 925000,
     picture: 'Steel Series Rival 100 Dota 2 Edition Gaming Mouse.png',
   },
   {
@@ -1296,7 +1296,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'ssd',
     brand: 'kingfast',
-    price: 'Rp 390,000',
+    price: 390000,
     picture: 'Kingfast SSD F6 [30GB].png',
   },
   {
@@ -1305,7 +1305,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'ssd',
     brand: 'kingfast',
-    price: 'Rp 859,000',
+    price: 859000,
     picture: 'Kingfast SSD F6 [120 GB].png',
   },
   {
@@ -1314,7 +1314,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'ssd',
     brand: 'crucial',
-    price: 'Rp 1,162,000',
+    price: 1162000,
     picture: 'Crucial BX200 Hard Disk [240 GB].png',
   },
   {
@@ -1323,7 +1323,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'ssd',
     brand: 'crucial',
-    price: 'Rp 5,467,000',
+    price: 5467000,
     picture: 'Crucial MX200 Hard Disk [1 TB].png',
   },
   {
@@ -1333,7 +1333,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'psu',
     brand: 'antec',
-    price: 'Rp 3,399,000',
+    price: 3399000,
     picture:
       'Antec High Current Pro PC Power Supply [850 W80+ Platinum CertifiedFull Modular7 Years Warranty].png',
   },
@@ -1344,7 +1344,7 @@ module.exports = [
     casing: '-',
     category: 'desktop PC',
     brand: 'raijintek',
-    price: 'Rp 21,185,000',
+    price: 21185000,
     picture:
       'Raijintek Nestor Desktop PC - Black [Intel i7-6700K SkylakeNvidia GTX 1060 6GB16GB RAMSSD 480GBWiFiWin 10].png',
   },
@@ -1354,7 +1354,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'casing',
     brand: 'cougar',
-    price: 'Rp 671,000',
+    price: 671000,
     picture: 'Cougar QBX Gaming Mini ITX Case.png',
   },
   {
@@ -1363,7 +1363,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'proccesor',
     brand: 'amd',
-    price: 'Rp 2,050,000',
+    price: 2050000,
     picture: 'AMD Ryzen 5 1400.png',
   },
   {
@@ -1372,7 +1372,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'motherboard',
     brand: 'asrock',
-    price: 'Rp 2,069,000',
+    price: 2069000,
     picture: 'ASRock AB350M.png',
   },
   {
@@ -1381,7 +1381,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'RAM',
     brand: 'patriot',
-    price: 'Rp 776,000',
+    price: 776000,
     picture: 'Patriot Signature Line Kit Series 8GB (2 x 4GB) DDR4-2666.png',
   },
   {
@@ -1390,7 +1390,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'VGA',
     brand: 'zotac',
-    price: 'Rp 1,880,000',
+    price: 1880000,
     picture: 'Zotac GeForce GTX 1050 2GB DDR5.png',
   },
   {
@@ -1399,7 +1399,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'PSU',
     brand: 'antec',
-    price: 'Rp 590,000',
+    price: 590000,
     picture: 'Antec VP Series 500W.png',
   },
   {
@@ -1408,7 +1408,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'hard disk',
     brand: 'patriot',
-    price: 'Rp 813,000',
+    price: 813000,
     picture: 'Patriot Burst 240GB.png',
   },
   {
@@ -1417,7 +1417,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'casing',
     brand: 'nzxt',
-    price: 'Rp 1,250,000',
+    price: 1250000,
     picture: 'NZXT H230 (Black  White).png',
   },
   {
@@ -1426,7 +1426,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'proccesor',
     brand: 'amd',
-    price: 'Rp 2,970,000',
+    price: 2970000,
     picture: 'AMD Ryzen 5 2600.png',
   },
   {
@@ -1435,7 +1435,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'motherboard',
     brand: 'asus',
-    price: 'Rp 3,545,000',
+    price: 3545000,
     picture: 'ASUS Prime x740-pro.png',
   },
   {
@@ -1444,7 +1444,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'RAM',
     brand: 'gskill',
-    price: 'Rp 1,237,000',
+    price: 1237000,
     picture: 'Gskill DDR4 RipjawsV PC19200 8GB (2x4GB).png',
   },
   {
@@ -1453,7 +1453,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'VGA',
     brand: 'sapphire',
-    price: 'Rp 2,920,000',
+    price: 2920000,
     picture: 'Sapphire RX 570 4GB DDR5.png',
   },
   {
@@ -1462,7 +1462,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'PSU',
     brand: 'seasonic',
-    price: 'Rp 1,150,000',
+    price: 1150000,
     picture: 'Seasonic Focus Gold 550GC.png',
   },
   {
@@ -1471,7 +1471,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'hard disk',
     brand: 'samsung',
-    price: 'Rp 1,360,000',
+    price: 1360000,
     picture: 'Samsung SSD 860 EVO 500GB.png',
   },
   {
@@ -1480,7 +1480,7 @@ module.exports = [
     casing: 'tower',
     category: 'casing',
     brand: 'fractal',
-    price: 'Rp 1,700,000',
+    price: 1700000,
     picture: 'Fractal Meshify C TG (BlackWhite).png',
   },
   {
@@ -1489,7 +1489,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'proccesor',
     brand: 'amd',
-    price: 'Rp 4,940,000',
+    price: 4940000,
     picture: 'AMD Ryzen 7 2700 .2Ghz Up To 4.1Ghz Cache 16MB.png',
   },
   {
@@ -1498,7 +1498,7 @@ module.exports = [
     casing: 'tower',
     category: 'motherboard',
     brand: 'asrock',
-    price: 'Rp 1,480,000',
+    price: 1480000,
     picture: 'ASRock B450 Pro 4.png',
   },
   {
@@ -1507,7 +1507,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'VGA',
     brand: 'gigabyte',
-    price: 'Rp 8,860,000',
+    price: 8860000,
     picture: 'Gigabyte GeForce GTX 1080 8GB DDR5 G1 Gaming.png',
   },
   {
@@ -1516,7 +1516,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'PSU',
     brand: 'seasonic',
-    price: 'Rp 671,000',
+    price: 671000,
     picture: 'Seasonic G-650 650W.png',
   },
   {
@@ -1525,7 +1525,7 @@ module.exports = [
     casing: 'all (mid-tower & tower)',
     category: 'hard disk',
     brand: 'crucial',
-    price: 'Rp 1,250,000',
+    price: 1250000,
     picture: 'Crucial BX200 Hard Disk [480 GB].png',
   },
   {
@@ -1534,7 +1534,7 @@ module.exports = [
     casing: '-',
     category: 'laptop',
     brand: 'asus',
-    price: 'Rp 29,905,000',
+    price: 29905000,
     picture: 'ASUS zephyrus gx501.png',
   },
 ];

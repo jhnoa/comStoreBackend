@@ -12,7 +12,7 @@ module.exports = function(app) {
       casing: {type: String, required: true},
       category: {type: String, required: true},
       brand: {type: String, required: true},
-      price: {type: String, required: true},
+      price: {type: Number, required: true},
       picture: {type: String, required: true},
       removed: {type: Boolean, default: false},
     },
