@@ -10,8 +10,25 @@ class Service {
     let {app} = this;
     let simulationPreferenceService = app.service('simulation-preference');
     let simulationPreferenceResult = await simulationPreferenceService.find();
-
-    return simulationPreferenceResult.data;
+    let simulations = [];
+    for (let i = 0; i < simulationPreferenceResult.data.length; i++) {
+      const simulation = simulationPreferenceResult.data[i];
+      let {parts} = simulation;
+      let result = {...simulation};
+      let resultParts = [];
+      for (let j = 0; j < parts.length; j++) {
+        const part = parts[j];
+        let {itemId, jumlah} = part;
+        let catalogService = app.service('catalog');
+        let catalogResult = await catalogService.find({query: {itemId}});
+        resultParts.push(catalogResult.data[0]);
+      }
+      console.log(resultParts);
+      result = {...result, parts: resultParts};
+      simulations.push(result);
+    }
+    // await simulationPreferenceResult.data.forEach(async(simulation) => {});
+    return simulations;
   }
 
   async get(id, params) {
