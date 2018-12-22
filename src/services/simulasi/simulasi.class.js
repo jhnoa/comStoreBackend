@@ -19,8 +19,29 @@ class Service {
       perakitanResult = await perakitanService.create({userId});
       return perakitanResult;
     }
+    let queryResult = perakitanResult.data[0];
+    let partDataResult = [];
+    let returnResult = {...queryResult};
+    if (queryResult.parts.length > 0) {
+      let catalogService = app.service('catalog');
 
-    return perakitanResult.data[0];
+      let {parts} = queryResult;
+
+      for (let index = 0; index < parts.length; index++) {
+        const part = parts[index];
+        let partData = await catalogService.find({
+          query: {
+            itemId: part.itemId,
+          },
+        });
+        console.log(part);
+        partData = {...partData.data[0], ...part};
+        partDataResult.push(partData);
+      }
+      returnResult = {...queryResult, parts: partDataResult};
+    }
+
+    return returnResult;
   }
 
   async create(data, params) {
@@ -93,8 +114,29 @@ class Service {
         },
       );
       console.log(perakitanResult);
+      let queryResult = perakitanResult;
+      let partDataResult = [];
+      let returnResult = {...queryResult};
+      if (queryResult.parts.length > 0) {
+        let catalogService = app.service('catalog');
 
-      return perakitanResult;
+        let {parts} = queryResult;
+
+        for (let index = 0; index < parts.length; index++) {
+          const part = parts[index];
+          let partData = await catalogService.find({
+            query: {
+              itemId: part.itemId,
+            },
+          });
+          console.log(part);
+          partData = {...partData.data[0], ...part};
+          partDataResult.push(partData);
+        }
+        returnResult = {...queryResult, parts: partDataResult};
+      }
+
+      return returnResult;
     }
 
     return data;
@@ -159,7 +201,29 @@ class Service {
       },
     );
     console.log(perakitanResult);
-    return perakitanResult;
+    let queryResult = perakitanResult;
+    let partDataResult = [];
+    let returnResult = {...queryResult};
+    if (queryResult.parts.length > 0) {
+      let catalogService = app.service('catalog');
+
+      let {parts} = queryResult;
+
+      for (let index = 0; index < parts.length; index++) {
+        const part = parts[index];
+        let partData = await catalogService.find({
+          query: {
+            itemId: part.itemId,
+          },
+        });
+        console.log(part);
+        partData = {...partData.data[0], ...part};
+        partDataResult.push(partData);
+      }
+      returnResult = {...queryResult, parts: partDataResult};
+    }
+
+    return returnResult;
   }
 }
 

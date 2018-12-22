@@ -138,7 +138,7 @@ class Service {
       ...catalogResult.data[0],
       removed: true,
     });
-    return {catalogResult};
+    return catalogResult;
   }
 }
 

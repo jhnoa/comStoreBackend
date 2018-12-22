@@ -27,7 +27,6 @@ class Service {
       result = {...result, parts: resultParts};
       simulations.push(result);
     }
-    // await simulationPreferenceResult.data.forEach(async(simulation) => {});
     return simulations;
   }
 
