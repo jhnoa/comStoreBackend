@@ -68,7 +68,7 @@ module.exports = [
   },
   {
     description:
-      'Deskripsi dari paket preferensi 1 (harga optimal di atas 15 juta)',
+      'Deskripsi dari paket preferensi 3 (harga optimal di atas 15 juta)',
     parts: [
       {
         itemId: 154,

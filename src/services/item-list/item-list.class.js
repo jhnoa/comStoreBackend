@@ -10,19 +10,23 @@ class Service {
   }
   async find(params) {
     let {app} = this;
-    let {all, removed, ...otherQuery} = params.query;
+    let {all, removed, $limit, ...otherQuery} = params.query;
 
     let query =
       all === 'true'
-        ? {removed: {$in: [true, false]}, ...otherQuery}
-        : {removed: removed || false, ...otherQuery};
-    console.log(query);
+        ? {
+          removed: {$in: [true, false]},
+          ...otherQuery,
+        }
+        : {
+          removed: removed || false,
+          ...otherQuery,
+        };
     let catalogService = app.service('catalog');
     let catalogResult = await catalogService.find({query});
-    catalogResult = await catalogService.find({
-      query: {$limit: catalogResult.total, ...query},
-    });
+    query = {...query, $limit: catalogResult.total};
 
+    catalogResult = await catalogService.find({query});
     return catalogResult.data;
   }
 
