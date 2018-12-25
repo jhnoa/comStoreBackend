@@ -56,7 +56,12 @@ class Service {
     return {...result};
   }
   async remove(id, params) {
-    return {isAuthenticated: true};
+    let {app} = this;
+    let {_id} = params.user;
+    let userDataService = app.service('user-data');
+    let userDataResult = await userDataService.find({query: {userID: _id}});
+    let {type} = userDataResult.data[0];
+    return {isAuthenticated: true, type};
   }
 }
 
