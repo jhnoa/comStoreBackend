@@ -13,11 +13,9 @@ class Service {
     let userDataService = app.service('user-data');
     let userDataResult = await userDataService.find({query: {userID: _id}});
     console.log(userDataResult);
-    let {name, address, contactNumber} = userDataResult.data[0];
+    let {password, ...data} = userDataResult.data[0];
     return {
-      name,
-      address,
-      contactNumber,
+      ...data,
     };
   }
 
@@ -61,7 +59,7 @@ class Service {
     let userDataService = app.service('user-data');
     let userDataResult = await userDataService.find({query: {userID: _id}});
     let {type} = userDataResult.data[0];
-    return {isAuthenticated: true, type};
+    return {isAuthenticated: true, type, _id};
   }
 }
 
