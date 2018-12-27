@@ -160,12 +160,13 @@ class Service {
     let catalogService = app.service('catalog');
     let totalPrice = 0;
     let {_id: simulasiId, parts} = perakitanResult;
-    parts.forEach(async(element) => {
+    for (let index = 0; index < parts.length; index++) {
+      const part = parts[index];
       let catalogResult = await catalogService.find({
-        query: {itemId: element.itemId},
+        query: {itemId: part.itemId},
       });
-      totalPrice += catalogResult.data[0].price * element.jumlah;
-    });
+      totalPrice += catalogResult.data[0].price * part.jumlah;
+    }
     let transaksiService = app.service('transaksi');
     let transaksiResult = await transaksiService.create({
       userId,
