@@ -35,7 +35,42 @@ class Service {
     let transaksiService = app.service('transaksi');
     let transaksiResult = await transaksiService.find(query);
     console.log(transaksiResult);
-    return transaksiResult.data;
+
+    let result = [];
+    for (let index = 0; index < transaksiResult.data.length; index++) {
+      const element = transaksiResult.data[index];
+      let userData = await userDataService.find({
+        query: {userID: element.userId},
+      });
+      element.userData = userData.data[0];
+      let simulationService = app.service('perakitan');
+      let simulationData = await simulationService.get(element.simulasiId);
+
+      let partDataResult = [];
+      if (simulationData.parts.length > 0) {
+        let catalogService = app.service('catalog');
+
+        let {parts} = simulationData;
+
+        for (let index = 0; index < parts.length; index++) {
+          const part = parts[index];
+          let partData = await catalogService.find({
+            query: {
+              itemId: part.itemId,
+            },
+          });
+          console.log(part);
+          partData = {...partData.data[0], ...part};
+          partDataResult.push(partData);
+        }
+      }
+      simulationData.parts = partDataResult;
+      element.simulasiData = simulationData;
+      result.push(element);
+    }
+
+    console.log(JSON.stringify(result));
+    return result;
   }
 
   // Make GET 1 data transaksi
