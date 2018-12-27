@@ -3,15 +3,54 @@ class Service {
   constructor(options) {
     this.options = options || {};
   }
-
+  async setup(app) {
+    this.app = app;
+  }
   async find(params) {
-    return [];
+    let {app} = this;
+
+    let {_id} = params.user;
+    let userDataService = app.service('user-data');
+    let userDataResult = await userDataService.find({query: {userID: _id}});
+    let {type} = userDataResult.data[0];
+
+    if (type !== 'admin') {
+      const notAdmin = new errors.BadRequest({
+        errors: 'User type mismatch',
+      });
+      return notAdmin;
+    }
+
+    let chatService = app.service('chat');
+    let chatResult = await chatService.find({query: {$sort: {createdAt: -1}}});
+    let result = [];
+    for (let index = 0; index < chatResult.data.length; index++) {
+      const element = chatResult.data[index];
+      let {_id, userId, createdAt} = element;
+      let lastChat = element.data.pop();
+      result.push({_id, userId, lastChat, createdAt});
+    }
+    return result;
   }
 
   async get(id, params) {
-    return {
-      id, text: `A new message with ID: ${id}!`,
-    };
+    let {app} = this;
+
+    let {_id} = params.user;
+    let userDataService = app.service('user-data');
+    let userDataResult = await userDataService.find({query: {userID: _id}});
+    let {type} = userDataResult.data[0];
+
+    if (type !== 'admin') {
+      const notAdmin = new errors.BadRequest({
+        errors: 'User type mismatch',
+      });
+      return notAdmin;
+    }
+
+    let chatService = app.service('chat');
+    let chatResult = await chatService.get(id);
+    return chatResult;
   }
 
   async create(data, params) {
