@@ -21,7 +21,7 @@ class Service {
         let {itemId, jumlah} = part;
         let catalogService = app.service('catalog');
         let catalogResult = await catalogService.find({query: {itemId}});
-        resultParts.push(catalogResult.data[0]);
+        resultParts.push({...catalogResult.data[0], jumlah});
       }
       console.log(resultParts);
       result = {...result, parts: resultParts};
