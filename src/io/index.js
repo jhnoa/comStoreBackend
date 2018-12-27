@@ -23,13 +23,7 @@ function socket(server) {
     });
     socket.on('toServerChat', (chatData) => {
       io.sockets.in(userId).emit('toClientChat', chatData);
-      io.sockets.in(userId).emit('toClientChat', {
-        ...chatData,
-        data: {
-          ...chatData.data,
-          sender: chatData.data.sender === 'admin' ? 'customer' : 'admin',
-        },
-      });
+      
       saveChat(chatData);
     });
   });

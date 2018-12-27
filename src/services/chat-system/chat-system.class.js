@@ -28,7 +28,12 @@ class Service {
       const element = chatResult.data[index];
       let {_id, userId, createdAt} = element;
       let lastChat = element.data.pop();
-      result.push({_id, userId, lastChat, createdAt});
+      let userDataService = app.service('user-data');
+      let userDataResult = await userDataService.find({
+        query: {userID: userId},
+      });
+      let {name} = userDataResult.data[0];
+      result.push({_id, userId, lastChat, createdAt, name});
     }
     return result;
   }
