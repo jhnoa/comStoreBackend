@@ -7,9 +7,8 @@ module.exports = function(app) {
   const {Schema} = mongooseClient;
   const chat = new Schema(
     {
-      text: {type: String, required: true},
-      from: {type: String, required: true},
-      to: {type: String, required: true},
+      userId: {type: String, required: true},
+      data: [{sender: String, message: String, timeStamp: Number}],
     },
     {timestamps: true},
   );

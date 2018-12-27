@@ -22,6 +22,7 @@ class Service {
   async update(id, data, params) {
     let {app} = this;
     let {name, contactNumber, address} = data;
+    console.log(data)
     let {_id} = params.user;
     let userDataService = app.service('user-data');
     let userDataResult = await userDataService.find({query: {userID: _id}});
