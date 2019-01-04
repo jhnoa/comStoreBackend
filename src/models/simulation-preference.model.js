@@ -17,6 +17,7 @@ module.exports = function(app) {
         ],
         required: true,
       },
+      picture: {type: String},
     },
     {
       timestamps: true,

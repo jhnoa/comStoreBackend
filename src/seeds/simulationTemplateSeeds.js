@@ -32,6 +32,7 @@ module.exports = [
         jumlah: 1,
       },
     ],
+    picture: 'paket-low.png',
   },
   {
     description: 'Deskripsi dari paket preferensi 2 (harga optimal 10-15 juta)',
@@ -65,6 +66,7 @@ module.exports = [
         jumlah: 1,
       },
     ],
+    picture: 'paket-mid.png',
   },
   {
     description:
@@ -99,5 +101,6 @@ module.exports = [
         jumlah: 1,
       },
     ],
+    picture: 'paket-high.png',
   },
 ];
